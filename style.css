@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: aqua;
+    height: 40px;
+    width: 100vw;
+    color: #000000;
+    display:flex;
+    border-bottom: 3px  solid  red;
+}
+.main-header span{
+    margin: 2px 150px;
+}
+.megamenu{ display: flex;
+    height: 150px;
+    width: 100vw;
+    background-color: #000000;
+    align-items: center;
+   
+}
+ .logo{font-family: monospace;
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: solid;
+ }
+.megamenu ul{
+   display: flex;
+    margin-left: auto;
+    list-style-type: none;
+}
+.megamenu ul li{
+    margin: 0 25px;
+   padding: 05px;
+   position: relative;
+    
+
+}
+.megamenu ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.megamenu ul ul{
+   display: block;
+    position: absolute;
+    left: -99999px;
+    top: 25px;
+    background-color: blue;
+    height: 200px;
+    width:200px;
+    border-radius: 5px;
+}
+.megamenu ul li:hover ul{
+    left: -30px;
+    top: 30px;
+    
+}
+.megamenu ul ul li{
+    border-bottom:1px solid #ddd  ;
+    margin-top: 20px;
+    text-align: center;
+}
+.megamenu ul ul li a{
+    text-decoration: none;
+   
+}
+.hero-area{
+    height:400px;
+    width: 100vw;
+    border: 1px solid black;
+   
+    background-image: url(./img37.jpg);
+    object-fit: cover;
+    
+
+}
+.content{
+    margin-inline:20%;
+    margin-block: 14%;
+    background: rgba(0,0,0,0.1);
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform:capitalize;
+    color: #f3e739f5;
+}
+.content p{
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(0, 255, 115);
+}
+.content button{
+    margin-top: 20px;
+    background: none;
+   backdrop-filter: blur(5px);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.8);
+}
+.content button a{
+    text-decoration: none;
+    color: #f3f722;
+    font-weight: 600;
+    
+}
+.content button:hover{
+    cursor:pointer;
+    background-color: #0aef;
+    c;
+}
